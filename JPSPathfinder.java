@@ -3,7 +3,7 @@
  * A* Pathfinder | BFS <  > Manhattan heuristic
  * An A* Implementation focusing at performance
  * --------------------------------------------
- * Made by: Jairo T. Eög
+ * Author: Jairo T. Eög
  * Copyright (c) 2014 - Jairo T. Eög
  * --------------------------------------------
  **********************************************/
@@ -39,7 +39,6 @@ public class JPSPathfinder implements IPathfinder {
      *
      * @return {List<Node>} the path, including both start and end positions.
      */
-
     public static List<Node> calculate(Matrix matrix, Node origin, Node ending)
     {
         short threshold = 0x00;
